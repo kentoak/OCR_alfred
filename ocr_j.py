@@ -62,7 +62,7 @@ while True:
         nowForTitle=resultText[startForTitle:startForTitle+endend]
     if start == 0:
         if cnt>0:
-            a={"title":nowForTitle,"arg":nowForTitle}
+            a={"title":nowForTitle,"arg":resultText}
         else:
             a={"title":resultText[startForTitle:],"arg":resultText[startForTitle:]}
     else:
